@@ -8,6 +8,7 @@ export const colors = {
     600: "#444547",
     400: "#9AA0A6",
     200: "#D1D5DB",
+    100: "#f3f4f6",
   },
   orange: {
     800: "#5E4D4E",

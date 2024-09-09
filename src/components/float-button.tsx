@@ -9,13 +9,13 @@ type FloatButtonProps = TouchableOpacityProps & {
 export function FloatButton({ icon, ...rest }: FloatButtonProps) {
   return (
     <TouchableOpacity
-      className="absolute bottom-4 right-4 flex-row items-center gap-2 rounded-xl bg-blue-900 px-6 py-4"
+      className="absolute bottom-4 right-4 flex-row items-center gap-2 rounded-xl bg-blue-900 px-4 py-4"
       activeOpacity={0.7}
       {...rest}
     >
       {icon && <MaterialIcons name={icon} size={22} color={colors.gray[200]} />}
 
-      <Text className="font-body text-base text-gray-200">Compose</Text>
+      <Text className="font-body text-base text-gray-200">Escrever</Text>
     </TouchableOpacity>
   );
 }

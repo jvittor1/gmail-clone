@@ -11,7 +11,7 @@ export default function Home() {
     <View className="flex-1 bg-gray-900 p-4 pt-14">
       <Input>
         <MenuButton />
-        <Input.Field placeholder="Search mail" />
+        <Input.Field placeholder="Pesquisar no Email" />
         <Avatar
           size="sm"
           source={{
@@ -26,8 +26,8 @@ export default function Home() {
         renderItem={({ item }) => <Email data={item} />}
         contentContainerClassName="gap-3"
         ListHeaderComponent={() => (
-          <Text className="font-subtitle mt-6 text-sm uppercase text-gray-400">
-            Inbox
+          <Text className="mt-6 font-subtitle text-sm text-gray-400">
+            Todas as Cx. entrada
           </Text>
         )}
       />
