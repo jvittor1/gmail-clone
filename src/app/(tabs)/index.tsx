@@ -1,5 +1,6 @@
 import { Avatar } from "@/components/avatar";
 import { Email } from "@/components/email";
+import { FloatButton } from "@/components/float-button";
 import { Input } from "@/components/input";
 import { MenuButton } from "@/components/menu-button";
 import { Emails } from "@/utils/email";
@@ -30,6 +31,8 @@ export default function Home() {
           </Text>
         )}
       />
+
+      <FloatButton icon="edit" />
     </View>
   );
 }
