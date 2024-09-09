@@ -29,7 +29,7 @@ Follow the steps below to run the project locally:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/jvittor1/Gmail-Clone
+   git clone https://github.com/jvittor1/gmail-clone.git
    ```
 
 2. **Install dependencies**:
